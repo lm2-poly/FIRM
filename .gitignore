@@ -1,0 +1,5 @@
+*.mat
+*.vtk
+*.png
+*.pdf
+*/obsolete/*
