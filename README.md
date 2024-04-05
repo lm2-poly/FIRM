@@ -39,6 +39,8 @@ files and judge if the FEM results are close enough to what is expected
 
 ## How to use
 
+Run the script importAll.m before using any files.
+
 Create a new folder for your files and create a matlab script. In this script,
 choose the adequate dimensions for your problem and properties (fluid and solid),
 and call the adequate meshing tool that returns the coordinates (nodes) and
