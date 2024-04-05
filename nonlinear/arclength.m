@@ -189,7 +189,7 @@ function arclength(coord, connec, dofTable, dispinit, ...
             
             if convergedPrev
                 if ds == dsMax
-                    dsMax = dsMax;
+                    dsMax = 1.1*dsMax;
                 end
                 ds = min(max(1.5*ds, dsMin), dsMax);
             end

@@ -1,4 +1,5 @@
-%Reads the data to plot the reconfiguration during snapping of a von mises truss
+%Reads the data to plot the reconfiguration during snapping of a bistable
+%beam
 %Author: Danick Lamoureux
 %Creation date: 2023-05-21
 
