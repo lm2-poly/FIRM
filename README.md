@@ -2,16 +2,12 @@
 Flow-Induced Reconfiguration Model based on the Corotational Finite Element Method
 
 ## Description
-This software is based on the implementation of the corotational framework
-for shells from Caselli & Bisegna (2013). Moreover, the finite element assembly
-solver is based on an anynonymous contributor's implementation. A relaxed Newton-Raphson
-and an arc-length method solver is implemented to allow for the resolution of 
-flow-induced reconfiguration problems. Analysis functions are given as starting points
-for further analysis. Moreover, the addition of computing loads is presented.
-Some meshing files are given and are based off a working installation of GMSH
-using python. Multiple verification cases have been tested and compared with
-analytical/numerical/experimental results and give good agreement, suggesting
-an adequate formulation of a simple reconfiguration solver.
+This software was developped to generate all the results for the paper Lamoureux, Ramananarivo, Melancon & Gosselin "Simulating flow-induced reconfiguration by coupling corotational plate finite elements with a simplified pressure drag" accepted for publication in *Extreme Mechanics Letters*. It is based on the implementation of the corotational framework for shells from Caselli & Bisegna (2013) and combined with an empirical drag formulation that enables solving for the large deformations of elastic shell structures subjected to wind.
+
+A relaxed Newton-Raphson and an arc-length method solver are implemented to allow for the resolution of flow-induced reconfiguration problems. Analysis functions are given as starting points for further analysis. Moreover, the addition of computing loads is presented. Some meshing files are given and are based off a working installation of GMSH using python. Multiple verification cases have been tested and compared with analytical/numerical/experimental results and give good agreement, suggesting an adequate formulation of a simple reconfiguration solver.
+
+Cite this work as
+Lamoureux, D., Ramananarivo, S., Melancon, D., Gosselin, F.P. "Simulating flow-induced reconfiguration by coupling corotational plate finite elements with a simplified pressure drag" accepted for publication in *Extreme Mechanics Letters*.
 
 ## Prerequisites
 You will need a functional MATLAB license and installation. Octave is currently
